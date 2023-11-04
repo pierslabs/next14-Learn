@@ -21,3 +21,8 @@ La API unstable_noStore de Next.js es una herramienta que te permite tomar decis
 
 ### ¿Qué es Streaming?
 La transmisión por secuencias es una técnica de transferencia de datos que te permite dividir una ruta en fragmentos más pequeños y transmitirlos progresivamente desde el servidor al cliente a medida que estén disponibles.
+```js
+    <Suspense fallback={<CardsSkeleton />}>
+      <CardWrapper />
+    </Suspense>
+```
