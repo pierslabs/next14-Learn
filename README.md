@@ -16,3 +16,10 @@ Descripción general a continuación se ofrece una descripción general de las f
 - Accesibilidad: cómo realizar la validación de formularios del lado del servidor y consejos para mejorar la accesibilidad.
 - Autenticación : Cómo agregar autenticación a su aplicación usando NextAuth.jsMiddleware.
 - Metadatos : Cómo preparar su aplicación para compartir en redes sociales.
+
+
+- API de Next.js llamada unstable_noStore
+Se puede utilizar para optar declarativamente por no participar en la representación estática e indicar que un componente en particular no debe almacenarse en caché.
+
+- ¿Qué es Streaming?
+La transmisión por secuencias es una técnica de transferencia de datos que le permite dividir una ruta en "fragmentos" más pequeños y transmitirlos progresivamente desde el servidor al cliente a medida que estén listos.
