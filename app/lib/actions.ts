@@ -29,7 +29,6 @@ const InvoiceSchema = z.object({
 const CreateInvoice = InvoiceSchema.omit({ id: true, date: true });
 
 export async function createInvoice(prevState: State, formData: FormData) {
-  console.log('formData', prevState);
   const validatedFields = CreateInvoice.safeParse({
     customerId: formData.get('customerId'),
     amount: formData.get('amount'),
