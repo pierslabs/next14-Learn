@@ -26,3 +26,10 @@ La transmisión por secuencias es una técnica de transferencia de datos que te 
       <CardWrapper />
     </Suspense>
 ```
+### Credentials
+La transmisión por secuencias es una técnica de transferencia de datos que te permite dividir una ruta en fragmentos más pequeños y transmitirlos progresivamente desde el servidor al cliente a medida que estén disponibles.
+```bash
+  Email: user@nextmail.com
+  Password: 123456
+```
+
